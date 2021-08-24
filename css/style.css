@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Courgette&family=Indie+Flower&family=Kalam:wght@300;400;700&family=Marck+Script&family=Pacifico&family=Roboto:wght@500&display=swap');
+
+html{
+    background-color: cornsilk;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+}
+
+h1 {
+    color: deepskyblue;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: honeydew;
+
+}
+p {
+    font-family: 'Baloo Bhai 2', cursive;
+    color:royalblue;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 0px;
+}
+.body {
+    background-color: cornsilk;
+    color: orangered;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 30px black;
+}
+
+img {
+    position: relative;
+    width: 200px;
+    align-items: center;   
+    margin: 10px 0px;
+    border: solid teal;
+    box-shadow: 7px 3px 10px black;
+
+}
+.menu {
+    background-color: honeydew;
+    margin: 10px;
+    border: 10px;
+    padding: 5px;
+    max-width: fit-content;
+    box-sizing: inherit;
+}
+/*
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif; */
