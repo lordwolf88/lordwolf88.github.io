@@ -4,76 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elérhetőségek</title>
-    <link rel="stylesheet" href="css/selector.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>About</title>
 </head>
 
 <body>
-    <ul>
-        <li>
-            <a href="/index.html">Kezdő oldal</a>
-        </li>
-        <li>
-            <a href="/about.html">Elérhetőségek</a>
-        </li>
-        <li>
-            <a href="/lapok/munkak.html">Munkáim</a>
-        </li>
-    </ul>
-    <table >
-        <caption>Elérhetőségek</caption>
-        <tr>
-            <th>elérés módja</th>
-            <th>elérési lehetőség</th>
-        </tr>
-        <tbody>
-            <tr>
-                <td>Telefonszám</td>
-                <td>+36-20/9593157</td>
-                <td rowspan="2">közvetet elérés</td>
-            </tr>
-            <tr>
-                <td>e-mail cím:</td>
-                <td>palacsikbutor@gmail.com</td>
-                
-            </tr>
-            <tr>
-                <td>Cím</td>
-                <td>Miskolc, Besenyői u. 8, 3527</td>
-                <td>közvetlen elérés</td>
-            </tr>
-        </tbody>
-        <tfoot>
-           <tr>
-               <td colspan="3">a változás jogát fenttartjuk</td>
-           </tr> 
-        </tfoot>
-    </table>
-    <div class="login-div">
-        <div class="form-group">
-            <label for="email">E-mail </label>
-            <input class="form-control" type="email" name="email">
-        </div>
-        <div class="form-group">
-            <label>Jelszó </label>
-            <input class="form-control" type="password" name="password">
-        </div>
-        <div class="form-group">
-            <button class="subbmit-btn">Login</button>
-        </div>
-       <div>
-           <label for="comment">Megjegyzés</label>
-           <textarea id="comment" name="comment" cols="30" rows="5"></textarea>
-       </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../bt.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="bt.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Elérhetőség</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lapok/munkak.html" tabindex="-1">Referencia</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+        <table class="table">
+            <caption>Elérhetőségek</caption>
+            <tr>
+                <th>elérés módja</th>
+                <th>elérési lehetőség</th>
+            </tr>
+            <tbody>
+                <tr class="table-info">
+                    <td>Telefonszám</td>
+                    <td>+36-20/9593157</td>
+                    <td class="table-light" rowspan="2">közvetet elérés</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-envelope-open-text"></i></td>
+                    <td>palacsikbutor@gmail.com</td>
+    
+                </tr>
+                <tr>
+                    <td><i class="fas fa-map-marked"></i></td>
+                    <td>Miskolc, Besenyői u. 8, 3527</td>
+                    <td>közvetlen elérés</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">a változás jogát fenttartjuk</td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="login-div">
+            <div class="form-group">
+                <label for="email">E-mail </label>
+                <input class="form-control" type="email" name="email">
+            </div>
+            <div class="form-group">
+                <label>Jelszó </label>
+                <input class="form-control" type="password" name="password">
+            </div>
+            <div class="form-group">
+                <button class="subbmit-btn">Login</button>
+            </div>
+            <div>
+                <label for="comment">Megjegyzés</label>
+                <textarea id="comment" name="comment" cols="30" rows="5"></textarea>
+            </div>
+    
+        </div>
+        <ul>
+            <li>kenyér</li>
+            <li>tej</li>
+            <li>chips</li>
+    
+        </ul>
+        <div class="col-2"></div>
     </div>
-    <ul>
-        <li>kenyér</li>
-        <li>tej</li>
-        <li>chips</li>
-
-    </ul>
+    
+</div>
+   
+   
 
 </body>
 
