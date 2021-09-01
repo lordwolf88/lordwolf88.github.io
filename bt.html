@@ -39,38 +39,39 @@
         </div>
     </nav>
     <div class="row">
-        <div class="col-4"></div>
-        <div class="col-auto">
-            <form class="form-horizontal">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email cím</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-success">Submit</button>
-            </form>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-light">Light</button>
-            <button type="button" class="btn btn-dark">Dark</button>
 
-            <button type="button" class="btn btn-link">Link</button>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h1>Hamburger rendelés</h1>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Feltét</label>
+                        <input type="text" name="top-input" class="form-control">
+                    </div>
+                    <div class="form-group">
+
+                        <label for="">Mennyiség</label>
+                        <input type="number" name="amount-input" class="form-control" value="1">
+                        <small class="form-text text-muted">
+                            Minimum 1, maximum 10 db.
+                        </small>
+
+                    </div>
+                    <div class="for-group">
+                        Fizetendő: <span class="show-amount"> 0 </span> Ft
+                    </div>
+                    <br>
+                    <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
+                </form>
+            </div>
+            <div class="col-3"> </div>
         </div>
-        <div class="col-4"></div>
     </div>
-    </div>
+    <script src="js/main.js"> </script>
+    
+    
 </body>
 
 </html>
